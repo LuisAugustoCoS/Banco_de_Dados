@@ -1,0 +1,56 @@
+				(Introdução a banco de dados)
+o que é  BANCO DE DADOS?
+banco_
+Grande quantidade de elementos disponiveis: ex Banco de areia , Banco de orgãos ,Banco de Imagens
+
+dados_
+Elemento conhecido de um problema ou infomação : ex Endereço, CPF, Distancia
+
+BANCO + DADOS_
+Grande quantidadede de elementos conhecidos de um problema ou informação dispomiveis de maneira regular 
+
+				(Tipos  de bancos) 
+Plano: matrizes bidimensionais
+
+Rede: informações armazenadas são relacionadas por referencia(sistemas de aquivos
+
+Relacional: Informações armazenadas de acordo com o modelo-entidades-relacionamento
+
+Orientado a Objetos: informações são armazenadas em forma de objeto (dados espaciais,telecomunicaçoes,e areas cientificas)
+
+Objeto Relacional: infromações são armazenadas no formato relacional ,com um modelo orientado a objetos
+ 
+				(Banco de dados relacional)
+Entidades_
+algo que pode ter existencia propria e idetificação própria
+---0U---
+Tabelas
+
+Atributos_
+dados de determinadas entidades
+Campos
+Chave Primaria :
+indexador ____(Campo determinante)
+Relacionamentos_
+{Acount--- Atributos ----- Cardinalidade(obrigatoriedade de relacionamentos)
++
++
+Charter ----- Magia +vida ______ Magia e vida(atual)
++
++
+Cenario}
+
+ligação entre duas entidades
+(1)---------------------(1)
+(n)---------------------(1)
+(n)---------------------(n)
+======Cardinalidade======== 
+				(Sgbd) 
+Sistema Gerenciador de Banco De Dados: --- responsavel pelo gerenciamento e manipulação  de um banco de dados 
+					Disponibiliza uma interface para criar atualizar e excluir dados
+					É responsavel pela integridade de  informações de  um banco de dados - ACID(Atomicidade,consistencian,isolamento,durabilidade) 
+				(Linguagem SQL)
+Structure Query Language , Linguagem de Consulta Estrutura ou (SQL)(base de dados relacional)
+Muitas das caracteristicas originais do SQL foram Inspiradas na algebra relacional
+O SQL foi desenvolvido originalmente no inicio dos anos 70 nos laboratórios da ibm em san soje dentreo do projeto system R , que tinha por objetivo demonstrar a 
+viabilidade da emplementação o modelo relacional.
