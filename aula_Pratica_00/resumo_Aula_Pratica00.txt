@@ -1,0 +1,16 @@
+Aula - 2 Banco_de_Dados
+
+instância nomeada:
+Separação de servidores de DB
+nomeDaMaquina/nome da instância
+
+User:sa
+Senha:senac1234
+
+				dml
+manipilação de dados. 
+				ddl
+manipulação do banco.
+
+
+para executar apenas uma linha no MS SQL --- seleciona a linha e clica em executar
