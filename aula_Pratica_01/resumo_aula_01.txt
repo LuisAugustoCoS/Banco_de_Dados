@@ -1,0 +1,1 @@
+Foi mostrado como realizar multiplos inserts de uma vez só no banco de dados 
