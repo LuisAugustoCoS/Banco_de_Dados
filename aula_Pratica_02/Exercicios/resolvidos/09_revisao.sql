@@ -1,6 +1,6 @@
 USE escola14
 GO
-TRUNCATE TABLE tbcidade;
+-- DROP TABLE tbcidade;
 /* ----------------EXERCÍCIO DE REVISÃO------------------
 1. Crie uma tabela cidade com as seguintes características:
 	código cidade inteiro não nulo (Identity=não duplicado),
@@ -22,15 +22,14 @@ Salve como: 09_revisao.sql	*/
 -- ------------------- CRIAÇÃO TABELA CIDADE ---------------------
 CREATE TABLE tbcidade( 
 	cod_cidade INT IDENTITY(1,1) NOT NULL,
-	nome_cidade VARCHAR(30) NOT NULL, 
-	uf_cidade VARCHAR(2) NOT NULL
+	nome_cidade VARCHAR(30) NULL, 
+	uf_cidade VARCHAR(2) NULL
 );
 GO
 -- -------------------INSERÇÃO TABELA CIDADE---------------------
 INSERT INTO tbcidade
-	( nome_cidade,uf_cidade)
+	(nome_cidade,uf_cidade)
 	VALUES
-	--inserir os dados na mesma ordem dos registros acima
 	('Itapetininga','SP'),
 	('Alambari','SP'),
 	('Jacarei','SP'),
@@ -40,15 +39,14 @@ INSERT INTO tbcidade
 GO
 -- -------------------ATUALIZAÇÃO TABELA CIDADE---------------------
 UPDATE tbcidade SET nome_cidade ='Sarapui'
-WHERE cod_cidade = 3;
-
+WHERE nome_cidade LIKE 'Jacarei';
+GO
 -- ----------------SELEÇÃO ORDENADA TABELA CIDADE------------------
 SELECT tbcidade.nome_cidade
 FROM tbcidade
 ORDER BY tbcidade.nome_cidade ASC
 ;
 GO
-
 -- ----------------SELEÇÃO CRITÉRIO TABELA CIDADE------------------
 SELECT tbcidade.nome_cidade
 FROM tbcidade
